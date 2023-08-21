@@ -1,0 +1,15 @@
+Package: agReto
+Title: Estimates Relative Binding Affinity of Neoantigens to Wild-type
+Version: 0.0.9
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Dscription: What the package does (one paragraph).
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+NeedsCompilation: no
+Packaged: 2023-08-21 21:05:36 UTC; wooh
+Author: First Last [aut, cre] (YOUR-ORCID-ID)
+Maintainer: First Last <first.last@example.com>
+Depends: R (>= 3.5.0)

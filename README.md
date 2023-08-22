@@ -62,4 +62,4 @@ b <- run.netmhc(input, netmhc.dir = dir)
 
 The output `b` is a multi-row data frame version of `b1` above.
 
-See [example](example) for further information.
+See [example](example/run.R) for further information.

@@ -42,7 +42,7 @@ dir <- '/juno/work/ccs/wooh/pkgs/netMHCpan-4.1/Linux_x86_64'
 b1 <- netmhc(peptide = 'HYNWLIYHL', hla = 'HLA-A*24:02', netmhc.dir = dir)
 b1
 ```
-The path `netmhc.dir` is the main directory path of the [netMHCpan](https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/). The path shown above works on `juno`.
+The path `netmhc.dir` is the main directory path of the [netMHCpan](https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/). The path shown above works on `juno` (needs to be linux).
 
 The output `b1` is a formated data frame of the standard netMHCpan output.
 

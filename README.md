@@ -57,6 +57,7 @@ To call the wrapper, put together a data frame with two columns `peptide` and `h
 and call it by
 
 ```
+input <- data.frame(peptide = z$wt, hla = z$hla)
 b <- run.netmhc(input, netmhc.dir = dir)
 ```
 

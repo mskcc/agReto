@@ -11,7 +11,7 @@ The function [wildtype](man/wildtype.Rd) attemps to regenerate wild-type sequenc
 | YGLFVTRAL   | EIF3H | p.S127L  | HLA-C*12:03 |
 | ...         | ...   | ...      | ...         |
 
-An example file can be seen in [input_data.txt](example/data/input_data.txt). The column `hla` above is not necssary for this call but will just be carried over into the output. The other argument to `wildtype` is a list of all known protein sequences with each element named by the gene name. It defaults to an object shipped within the package [z.rds](inst/extdata/z.rds). Any queries for genes not in this list will return `NA`. 
+An example file can be seen in [input_data.txt](example/data/input_data.txt). The column `hla` above is not necssary for this call but will just be carried over into the output. The other argument to `wildtype` is a list of all known protein sequences with each element named by gene name (Hugo symbol). It defaults to an object shipped within the package [z.rds](inst/extdata/z.rds). Any queries for genes not in this list will return `NA`. 
 
 A call like the following:
 ```
